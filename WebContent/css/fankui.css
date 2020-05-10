@@ -1,0 +1,57 @@
+	body {
+		background-image: url(../img/cardbg.png);
+		background-repeat: no-repeat;
+        background-position-x: center;
+        background-attachment: fixed;
+	}
+	#fankui {
+		width: 400px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+	    background-color: #96b97d;
+	    margin: -200px 0 0 -200px;
+	    padding: 0px 20px 20px 20px;
+	    border-radius: 10px;
+	}
+	#fankui h1 {
+		font: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		display: block;
+		color: # FFF;
+		background: # 9DC45F;
+		text-shadow: 1px 1px 1px # 949494;
+		border-radius: 5px 5px 0px 0px;
+		border-bottom:1px solid # 89AF4C;
+	}
+	#fankui h1>span {
+		display: block;
+		font-size: 11px;
+		color: # FFF;
+	}
+	#fankui input[type=submit] {
+	    background-color: #4caf50;
+	    color: white;
+	    margin: 8px 0;
+	    border: none;
+	    padding: 14px 20px;
+	    border-radius: 4px;
+	}
+	#fankui input[type=submit]:hover {
+		background-color: rgba(227,62,51,1);
+	}
+	#fankui input[type="text"], #fankui textarea{
+		width: 100%;
+	    margin: 8px 0;
+	    padding: 12px 20px;
+	    display: inline-block;
+	    border: 1px solid #ccc;
+	    border-radius: 4px;
+	    box-sizing: border-box;
+	}
+	#fankui textarea {
+		height: 120px;
+	}
+	#fankui label {
+		display: block;
+		margin: 0px 0px 5px;
+	}
